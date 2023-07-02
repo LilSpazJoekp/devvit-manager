@@ -1,0 +1,34 @@
+repos:
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    hooks:
+      - id: end-of-file-fixer
+        exclude: .*\.txt
+    rev: v4.4.0
+
+  - repo: https://github.com/psf/black
+    hooks:
+      - id: black
+    rev: 23.3.0
+
+  - repo: https://github.com/LilSpazJoekp/docstrfmt
+    hooks:
+      - id: docstrfmt
+        require_serial: true
+    rev: v1.5.1
+
+  - repo: https://github.com/pycqa/flake8
+    hooks:
+      - id: flake8
+    rev: 6.0.0
+
+  - repo: https://github.com/pycqa/isort
+    hooks:
+      - id: isort
+    rev: 5.12.0
+
+  - repo: https://github.com/pycqa/pydocstyle
+    hooks:
+      - id: pydocstyle
+        files: devvit_mgr/.*
+    rev: 6.3.0
