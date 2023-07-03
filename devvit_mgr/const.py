@@ -1,7 +1,7 @@
 """Devvit Manager Constants."""
 from pathlib import Path
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 DEVVIT_CLIENT_ID = "Bep8X2RRjuoyuxkKsKxFuQ"
 DEVVIT_COPY_PASTE_CLIENT_ID = "TWTsqXa53CexlrYGBWaesQ"
