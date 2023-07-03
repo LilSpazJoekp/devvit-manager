@@ -6,6 +6,9 @@ Devvit Manager follows `semantic versioning <https://semver.org/>`_.
 Unreleased
 ----------
 
+1.0.0 (2023/07/03)
+------------------
+
 Initial Release
 
 **Added**
